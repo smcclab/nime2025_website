@@ -1,0 +1,36 @@
+# This is a demo config file showing a minimal set of default keys and keys used by the theme.
+title: NIME 2025
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the official website of NIME'25.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+footer_copyright: Name of Copyright Holder
+logo: /assets/NIME2025_type.svg
+favicon: /assets/NIME2025_type.svg
+
+navigation_header:
+- title: Home
+  url: /
+- title: Program
+  url: /program/
+- title: Schedule or Session
+  url: /schedule
+
+# jekyll datagen_gem config below
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - data: 'papers'
+    template: 'page'
+    name: 'full_name'
+    dir: 'program'
+  # haven't touched below 
+  - data: 'hierarchy.people'
+    template: 'page'
+    name: 'full_name'
+    dir: 'hierarchy'
+  
+    
