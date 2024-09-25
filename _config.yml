@@ -7,17 +7,26 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-footer_copyright: Name of Copyright Holder
+footer_copyright: The Australian National University
 logo: /assets/NIME2025_type.svg
 favicon: /assets/NIME2025_type.svg
 
 navigation_header:
 - title: Home
   url: /
-- title: Program
-  url: /program/
-- title: Schedule or Session
-  url: /schedule
+- title: Call
+  url: /call
+- title: Committee
+  url: /committee
+- title: Location
+  url: /location
+- title: Contact
+  url: /contact
+
+# - title: Program
+#   url: /program/
+# - title: Schedule or Session
+#   url: /schedule
 
 # jekyll datagen_gem config below
 page_gen-dirs: true # uncomment, if you prefer to generate named folders

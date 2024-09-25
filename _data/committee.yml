@@ -1,0 +1,20 @@
+- name: Charles Martin
+  aff: ANU School of Computing
+  im: "assets/committee/charles-martin.jpg"
+  role: General Chair
+  url: "https://charlesmartin.au"
+- name: Pia van Gelder
+  aff: ANU School of Art and Design
+  im: "assets/committee/pia-van-gelder.jpg"
+  role: General Chair
+  url: "https://researchportalplus.anu.edu.au/en/persons/pia-van-gelder"
+- name: Alexander Hunter
+  aff: ANU School of Music
+  im: "assets/committee/alexander-hunter.jpg"
+  role: Accessibility Chair
+  url: "https://www.alexanderhunter.com.au"
+- name: Yichen Wang
+  aff: ANU School of Computing
+  im: "assets/committee/yichen-wang.jpg"
+  role: Installations Chair
+  url: "https://yichenwangs.github.io/"
