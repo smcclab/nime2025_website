@@ -23,6 +23,10 @@ navigation_header:
 - title: Contact
   url: /contact
 
+plugins:
+  - jekyll-figure
+  # - jekyll-datapage-generator
+
 # - title: Program
 #   url: /program/
 # - title: Schedule or Session
@@ -36,10 +40,3 @@ page_gen:
     template: 'page'
     name: 'full_name'
     dir: 'program'
-  # haven't touched below 
-  - data: 'hierarchy.people'
-    template: 'page'
-    name: 'full_name'
-    dir: 'hierarchy'
-  
-    
