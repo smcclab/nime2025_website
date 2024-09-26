@@ -8,6 +8,11 @@
   im: "assets/committee/pia-van-gelder.jpg"
   role: General Chair
   url: "https://researchportalplus.anu.edu.au/en/persons/pia-van-gelder"
+- name: Jos Mulder
+  aff: ANU School of Music
+  im: "assets/committee/jos-mulder.jpg"
+  role: Music Chair
+  url: "https://researchportalplus.anu.edu.au/en/persons/jos-mulder"
 - name: Alexander Hunter
   aff: ANU School of Music
   im: "assets/committee/alexander-hunter.jpg"
@@ -18,3 +23,8 @@
   im: "assets/committee/yichen-wang.jpg"
   role: Installations Chair
   url: "https://yichenwangs.github.io/"
+- name: Minsik Choi
+  aff: ANU School of Computing
+  im: "assets/committee/minsik-choi.jpg"
+  role: Workshop Chair
+  url: "https://yorkcla.github.io"
