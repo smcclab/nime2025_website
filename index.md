@@ -1,7 +1,8 @@
 ---
 title: Entangled NIME
 layout: page
-feature_image: assets/NIME2025_background.png
+feature_image_light: /assets/NIME2025_background_light.png
+feature_image_dark: /assets/NIME2025_background_dark.png
 ---
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 80%; margin: 0 auto;">
