@@ -5,14 +5,32 @@
   </head>
   <body>
     {% include nav.html %}
-
-    {% if page.feature_image %}
+    {% if page.feature_image_light and page.feature_image_dark %}
     <div class="mx-0 px-0 bg-transparent container-fluid">
-      <div class="row justify-content-between mx-0 px-0 feature-image" style="background-image: url('{% link {{ page.feature_image }} %}');">
+      <div class="row justify-content-between mx-0 px-0 feature-image" 
+           style="background-image: url('{{ page.feature_image_light | relative_url }}');"
+           data-light-img="{{ page.feature_image_light | relative_url }}"
+           data-dark-img="{{ page.feature_image_dark | relative_url }}">
       </div>
     </div>
     {% endif %}
 
+    <!-- Debug info -->
+    <!-- <div style="display: none;">
+      Original image: {{ page.feature_image | relative_url }}
+      Light image: {{ page.feature_image_light | relative_url }}
+      Dark image: {{ page.feature_image_dark | relative_url }}
+    </div>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const featureImage = document.getElementById('featureImage');
+        console.log('Feature Image Element:', featureImage);
+        console.log('Light Image URL:', featureImage?.dataset.lightImg);
+        console.log('Dark Image URL:', featureImage?.dataset.darkImg);
+        console.log('Current background-image:', featureImage?.style.backgroundImage);
+    });
+    </script> -->
+    
     <div class="container rounded bg-body">	   
       <main class="my-2 p-4" aria-label="Content">
         {{ content }}

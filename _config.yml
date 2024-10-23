@@ -8,7 +8,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 footer_copyright: The Australian National University
-logo: /assets/NIME2025_type.svg
+# logo: /assets/NIME2025_type.svg
+logo_light: /assets/NIME2025_type_light-1.svg
+logo_dark: /assets/NIME2025_type_dark.svg
 favicon: /assets/NIME2025_type.svg
 
 navigation_header:

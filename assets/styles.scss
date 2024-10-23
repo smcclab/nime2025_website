@@ -24,6 +24,7 @@ html {
 body {
   font-family: $body-font;
   font-weight: normal;
+  padding-top: 1em;
 }
 
 p {
@@ -117,7 +118,8 @@ $ui-4: #4d4bcd;
 }
 
 .feature-image {
-    height: 25rem;
-    background-position: center center;
+    height: 25em;
+    // background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
